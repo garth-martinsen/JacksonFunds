@@ -1,0 +1,7 @@
+**/.DS_Store
+**/JacksonFunds*.sublime-*
+__pycache__/
+**/*~
+/venv/
+/data
+
