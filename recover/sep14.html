@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://www.jackson.com/policy-detail/variable-annuity.xhtml -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head id="j_idt3"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="./sep14_files/theme.css.xhtml"><script type="text/javascript" async="" src="./sep14_files/insight.min.js" id="_idgpn_3"></script><script type="text/javascript" src="./sep14_files/jquery.js.xhtml" id="_idgpn_4"></script><script type="text/javascript" src="./sep14_files/jquery-plugins.js.xhtml" id="_idgpn_5"></script><script type="text/javascript" src="./sep14_files/core.js.xhtml" id="_idgpn_6"></script><link type="text/css" rel="stylesheet" href="./sep14_files/components.css.xhtml"><script type="text/javascript" src="./sep14_files/components.js.xhtml" id="_idgpn_7"></script><script type="text/javascript" src="./sep14_files/jsf.js.xhtml" id="_idgpn_8"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_US';PrimeFaces.settings.projectStage='Development';}</script><title>Policy Details | Jackson</title><meta name="viewport" content="width=1024">
+		<link href="./sep14_files/css" rel="stylesheet" type="text/css">
+		<link href="./sep14_files/all.css" rel="stylesheet">
+		<link href="./sep14_files/line-awesome.min.css" rel="stylesheet">
+		<link href="./sep14_files/normalize.css" rel="stylesheet">
+		<link href="./sep14_files/overrides.css" rel="stylesheet">
+		<link href="./sep14_files/fonts.css" rel="stylesheet">
+		<link href="./sep14_files/masthead.css" rel="stylesheet">
+		<link href="./sep14_files/utility.css" rel="stylesheet">
+		<link href="./sep14_files/global.css" rel="stylesheet">
+		<link href="./sep14_files/icons.css" rel="stylesheet">
+		<link href="./sep14_files/print.css" rel="stylesheet" media="print">
+<script type="text/javascript">
+	digitalData = {
+			page:{
+				pageInfo:{
+					pageId:'/policy-detail/variable-annuity.xhtml',
+					onsiteSearchTerm:'',
+					onsiteSearchResults:'',
+					pageName:'Policy Details',
+					pageSection:''
+				}, 
+			category:{
+				primaryCategory:'',
+	            subCategory1:'',
+	            subCategory2:''
+			}, 
+			attributes:{exploreAttributes:'Policy Details-_--_-Consumer-_--_--_-garthjmartinsen-_--_--_-',extraFields:''}}
+	};
+</script>
+		<script src="./sep14_files/launch-EN8f3d9eb34a504d0692197ca69006cfb3.min.js" async="true" id="_idgpn_9"></script><script src="./sep14_files/AppMeasurement.min.js" async="" id="_idgpn_10"></script><script src="./sep14_files/AppMeasurement_Module_ActivityMap.min.js" async="" id="_idgpn_11"></script><script src="./sep14_files/AppMeasurement_Module_AudienceManagement.min.js" async="" id="_idgpn_12"></script><script src="./sep14_files/fbevents.js" async="" id="_idgpn_13"></script><script src="./sep14_files/uwt.js" async="" id="_idgpn_14"></script><script src="./sep14_files/RC532ae4eb0dc740a094fe4a54edcc4640-source.min.js" async="" id="_idgpn_15"></script><script src="./sep14_files/js" async="" id="_idgpn_16"></script><script src="./sep14_files/bat.js" async="" id="_idgpn_17"></script><script src="./sep14_files/RC31844b6cfe954e2395f1d2da48250b22-source.min.js" async="" id="_idgpn_18"></script></head><body class="responsive" style="top: -32px;">
+		<div id="container"></div>
+		<div id="backgroundOverlay" class="hidden"></div>
+		<div class="root responsiveGrid">
+			<div id="mastContainer">
+<script type="text/javascript">
+// setup session manager namespace
+if (!com) { var com = {}; }
+if (!com.jackson) { com.jackson = {}; }
+com.jackson.sessionManager = (function() {
+	var remainingCountElement = null;
+	var countDownUpdateInterval = null;
+	var REMAINING_COUNT_INITIAL_VALUE = 60;
+	var remainingCount;
+	var showPopup = 'true';
+
+	// default to a no-op function
+	var sessionInvalidatedCallback = function() {};
+	
+	function init() {
+	  remainingCountElement = document.getElementById('remainingCount');
+	  updateWaitTimeToStartCountDown();
+	}
+
+	function performAction(waitTimeToStartCountDown) {
+		if (waitTimeToStartCountDown > 0) {
+			var countDownStartTimer = setTimeout(countDownStart, waitTimeToStartCountDown);
+		} else if (remainingCount == REMAINING_COUNT_INITIAL_VALUE) { //just started count down
+		    remainingCountElement.innerHTML = remainingCount;
+		    if (showPopup == 'true') {
+			    window.focus();
+			    PF('countDownDlgVar').show();
+		    }
+		    countDownUpdateInterval = setInterval(updateCountDown, 1000);
+        } else{  // count down ends
+			sessionInvalidatedCallback();
+			exitSession();
+		}
+	}
+
+	function countDownStart() {
+	  remainingCount = REMAINING_COUNT_INITIAL_VALUE;
+	  updateWaitTimeToStartCountDown();
+	}
+
+	function updateCountDown() {
+		if (remainingCount == 0) { // about to invalidate session
+	    	stopCountDown();
+	    	updateWaitTimeToStartCountDown();
+		} else {
+	  		remainingCountElement.innerHTML = remainingCount;
+			remainingCount = remainingCount - 1;
+		}
+	}
+
+	function stopCountDown() {
+		PF('countDownDlgVar').hide();
+		clearInterval(countDownUpdateInterval);
+	}
+
+	function continueSession() {
+		keepAlive([{name:'hearBeatRequest', value:'false'}]);
+	}
+
+	function invalidateSession() {
+		exitSession();
+	}
+	
+	function setSessionInvalidatedCallback(callbackFn) {
+		// only override the callback if the provided callback is defined and is a function
+		if (callbackFn && typeof(callbackFn) === 'function') {
+			sessionInvalidatedCallback = callbackFn;
+		}
+	}
+	
+	// expose the public api
+	return {
+		init : init,
+		performAction : performAction,
+		countDownStart : countDownStart,
+		updateCountDown : updateCountDown,
+		stopCountDown : stopCountDown,
+		continueSession : continueSession,
+		setSessionInvalidatedCallback : setSessionInvalidatedCallback,
+		invalidateSession : invalidateSession,
+	    redirectToOnTimeout : '/index.html'
+	};
+})();
+
+if (typeof window.onload != 'function') {
+   window.onload = com.jackson.sessionManager.init;
+}
+else {
+  var oldOnload = window.onload;
+  window.onload = function() {
+    oldOnload();
+    com.jackson.sessionManager.init();
+  }
+}
+
+</script>
+<form id="j_idt34:sessionManagerForm" name="j_idt34:sessionManagerForm" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt34:sessionManagerForm" value="j_idt34:sessionManagerForm">
+<script id="j_idt34:sessionManagerForm:updateWaitTimeToStartCountDown" type="text/javascript">updateWaitTimeToStartCountDown = function() {PrimeFaces.ab({s:"j_idt34:sessionManagerForm:updateWaitTimeToStartCountDown",f:"j_idt34:sessionManagerForm",p:"j_idt34:sessionManagerForm",a:true,g:false,onco:function(xhr,status,args){com.jackson.sessionManager.performAction(args.waitTimeToStartCountDown);;},pa:arguments[0]});}</script><script id="j_idt34:sessionManagerForm:exitSession" type="text/javascript">exitSession = function() {PrimeFaces.ab({s:"j_idt34:sessionManagerForm:exitSession",f:"j_idt34:sessionManagerForm",p:"j_idt34:sessionManagerForm",a:true,g:false,pa:arguments[0]});}</script><script id="j_idt34:sessionManagerForm:keepAlive" type="text/javascript">keepAlive = function() {PrimeFaces.ab({s:"j_idt34:sessionManagerForm:keepAlive",f:"j_idt34:sessionManagerForm",a:true,g:false,onco:function(xhr,status,args){updateWaitTimeToStartCountDown();},pa:arguments[0]});}</script>
+
+  <input type="hidden" id="hearBeatRequest" name="hearBeatRequest" value="true"><script id="j_idt34:sessionManagerForm:heartBeatPoll_s" type="text/javascript">$(function(){PrimeFaces.cw("Poll","hearBeatVar",{id:"j_idt34:sessionManagerForm:heartBeatPoll",frequency:120,autoStart:true,fn:function(){PrimeFaces.ab({s:"j_idt34:sessionManagerForm:heartBeatPoll",f:"j_idt34:sessionManagerForm",p:"j_idt34:sessionManagerForm",a:true,g:false});}});});</script><div id="j_idt34:sessionManagerForm:sessionExpireDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="width: 400px; height: auto;" role="dialog" aria-labelledby="j_idt34:sessionManagerForm:sessionExpireDialog_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="j_idt34:sessionManagerForm:sessionExpireDialog_title" class="ui-dialog-title">Important</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+	<div class="panel">
+		<div class="panel-content-wrapper">
+			<div class="panel-content">
+				<p>Your login session will expire in <span id="remainingCount" style="color:red"></span> seconds</p>
+				<p>Would you like to extend your session?</p>
+			</div>
+			
+			<div class="panel-button-wrapper actionsWrapper">
+				<div class="actions"><button id="j_idt34:sessionManagerForm:noButton" name="j_idt34:sessionManagerForm:noButton" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only secondaryButton button secondary" onclick="com.jackson.sessionManager.stopCountDown(); com.jackson.sessionManager.invalidateSession();" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">No</span></button><button id="j_idt34:sessionManagerForm:yesButton" name="j_idt34:sessionManagerForm:yesButton" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only primaryButton button primary" onclick="com.jackson.sessionManager.stopCountDown(); com.jackson.sessionManager.continueSession()" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Yes</span></button>
+				</div>
+			</div>
+		</div>
+	</div></div></div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form>
+
+	<script type="text/javascript">
+		function toggleProfile() {
+			document.getElementById("toggledPage").value = jnl_location;
+			document.getElementById('btnToggleSubmit').click();
+		}
+	</script>
+	<div id="mastheadContainer" class="masthead fixed attached" style="left: 0px;">
+		<header id="masthead" class="column-content">
+			<div class="image">
+			    <a aria-label="Jackson logo" href="https://www.jackson.com/dashboard/dashboard.xhtml">
+					<img src="./sep14_files/jackson-logo-alt.png" alt="Jackson Logo" id="_idgpn_1">
+			    </a>
+			</div>
+
+			
+			<div class="navigation-menu">
+				<button class="navigation-menu__icon-close navigation-menu__icon-close--main close" aria-label="Close Menu" tabindex="0"></button>
+				<div class="navigation-menu__wrapper experiencefragment primary-navigation"><nav class="navigation-menu__landmark nav" aria-label="Primary"> 
+ <ul id="primary-navigation" class="navigation-menu__list js-primary-nav nav" role="menubar"> 
+  <li class="navigation-menu__list-item navigation-menu__list-item--site-section js-site-section "> <a class="navigation-menu__dropdown-trigger  level-two-menu" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false"> Your Financial Future <span class="navigation-menu__trigger-container hidden"> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--expand las la-plus"></span> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--collapse las la-minus"></span> </span> </a> 
+   <ul class="navigation-menu__dropdown" role="menu"> 
+    <li class="navigation-menu__dropdown-item overview-link " role="presentation"> <a class="navigation-menu__landing-link" href="https://www.jackson.com/your-financial-future.html" role="menuitem"> <span class="navigation-menu__landing-text link-title">Overview</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/your-financial-future/retirement-planning.html" role="menuitem"> <span class="navigation-menu__link-text link-title"> Your Retirement. Your Plan.</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/your-financial-future/define-your-strategy.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Defining a Strategy</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/your-financial-future/your-journey-to-financial-freedom.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Your Journey to Financial Freedom</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/your-financial-future/calculators-and-tools.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Planning Calculators &amp; Tools</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/your-financial-future/educational-resources.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Educational Resources</span> </a> 
+    </li> 
+   </ul> 
+  </li> 
+  <li class="navigation-menu__list-item navigation-menu__list-item--site-section js-site-section "> <a class="navigation-menu__dropdown-trigger  level-two-menu" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false"> About Our Annuities <span class="navigation-menu__trigger-container hidden"> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--expand las la-plus"></span> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--collapse las la-minus"></span> </span> </a> 
+   <ul class="navigation-menu__dropdown" role="menu"> 
+    <li class="navigation-menu__dropdown-item overview-link " role="presentation"> <a class="navigation-menu__landing-link" href="https://www.jackson.com/annuities.html" role="menuitem"> <span class="navigation-menu__landing-text link-title">Overview</span> </a> 
+    </li>      
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/annuities/benefits-of-annuities.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Benefits of Annuities</span> </a> 
+    </li> 
+   </ul> 
+  </li> 
+  <li class="navigation-menu__list-item navigation-menu__list-item--site-section js-site-section "> <a class="navigation-menu__dropdown-trigger  level-two-menu" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false"> The Jackson Difference <span class="navigation-menu__trigger-container hidden"> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--expand las la-plus"></span> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--collapse las la-minus"></span> </span> </a> 
+   <ul class="navigation-menu__dropdown" role="menu"> 
+    <li class="navigation-menu__dropdown-item overview-link " role="presentation"> <a class="navigation-menu__landing-link" href="https://www.jackson.com/the-jackson-difference.html" role="menuitem"> <span class="navigation-menu__landing-text link-title">Overview</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/the-jackson-difference/who-we-are.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Who We Are</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/the-jackson-difference/financial-strength.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Financial Strength</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/the-jackson-difference/environmental-social-governance.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Environmental, Social &amp; Governance</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item" role="presentation" data-auth-url="/content/jackson-aem/us/the-jackson-difference/careers.html"> <a class="navigation-menu__link" href="https://www.jackson.com/the-jackson-difference/careers.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Explore Jackson Careers</span> </a> 
+    </li> 
+   </ul> 
+  </li> 
+  <li class="navigation-menu__list-item navigation-menu__list-item--site-section js-site-section "> <a class="navigation-menu__dropdown-trigger  level-two-menu" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false"> Financial Professionals <span class="navigation-menu__trigger-container hidden"> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--expand las la-plus"></span> <span class="navigation-menu__trigger-icon navigation-menu__trigger-icon--collapse las la-minus"></span> </span> </a> 
+   <ul class="navigation-menu__dropdown" role="menu"> 
+    <li class="navigation-menu__dropdown-item overview-link " role="presentation"> <a class="navigation-menu__landing-link" href="https://www.jackson.com/financial-professionals.html" role="menuitem"> <span class="navigation-menu__landing-text link-title">Overview</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/financial-professionals/client-conversation-resources.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Client Conversation Resources</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/financial-professionals/tools.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Tools For Your Practice</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/financial-professionals/get-appointed.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Get Appointed</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/financial-professionals/helping-financial-professionals-succeed.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Helping Financial Professionals Succeed</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/performance-center.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Performance Center</span> </a> 
+    </li> 
+    <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" href="https://www.jackson.com/financial-professionals/jackson-live.html" role="menuitem"> <span class="navigation-menu__link-text link-title">Jackson LIVE</span> </a> 
+    </li>      
+   </ul> 
+  </li> 
+  <li class="navigation-menu__list-item js-navigation-menu__hamburger-trigger menu "> 
+   <div class="nav-trigger"> <a class="navigation-menu__link--icon-hamburger icon-hamburger js-is-nav-trigger" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Additional Resources" data-toggle="dropdown"></a> 
+    <ul class="navigation-menu__dropdown navigation-menu__dropdown--hamburger" role="menu"> 
+     <li class="navigation-menu__dropdown-item" role="presentation" data-auth-url="/forms/forms.xhtml"> <a class="navigation-menu__link" role="menuitem" href="https://www.jackson.com/forms/forms.xhtml"> <span class="navigation-menu__link-text link-title">Forms</span> </a> 
+     </li> 
+     <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" role="menuitem" href="https://www.jackson.com/frequently-asked-questions.html" aria-label="Frequently Asked Questions"> <span class="navigation-menu__link-text link-title">FAQs</span> </a> 
+     </li> 
+     <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" role="menuitem" href="https://www.jackson.com/contact-us.html"> <span class="navigation-menu__link-text link-title">Contact Us</span> </a> 
+     </li> 
+     <li class="navigation-menu__dropdown-item " role="presentation"> <a class="navigation-menu__link" role="menuitem" href="https://www.jackson.com/the-jackson-difference/careers.html"> <span class="navigation-menu__link-text link-title">Careers</span> </a> 
+     </li> 
+    </ul> 
+   </div> 
+  </li> 
+ </ul> 
+</nav> 
+<ul class="navigation-menu__list navigation-menu__list--aside js-primary-nav-aside nav aside" role="presentation"> 
+ <li class="navigation-menu__list-item navigation-menu__list-item--search search js-list-item--search auth-public hidden"> <a class="navigation-menu__link navigation-menu__link--icon-search js-navigation-menu__search-trigger level-two-menu" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" data-toggle="dropdown" role="search" aria-expanded="false" aria-label="Site"> <span class="fas fa-search"></span> </a> 
+  <ul class="navigation-menu__dropdown navigation-menu__dropdown--full-width" role="presentation"> 
+   <li class="navigation-menu__dropdown-item"> 
+    <form id="nav-cludo-search-form" role="search" class="navigation-menu__search-form content-area"> 
+     <div class="cmp-form-text field focus" data-cmp-is="formText"> <input class="cmp-form-text__text search-input" aria-label="Search" aria-describedby="autocomplete_hint" data-cmp-hook-form-text="input" type="text" id="navSearch" name="navSearch"> <label for="navSearch" class="floating">Search</label> 
+     </div> 
+    </form> 
+   </li> 
+  </ul> <button class="navigation-menu__icon-close navigation-menu__icon-close--search nav-cludo-search-close close" aria-label="Close Search" tabindex="-1"></button> 
+ </li> 
+ <li class="navigation-menu__list-item navigation-menu__list-item--authentication">  <a id="signOut" href="https://www.jackson.com/logout" class="primary-cta-button auth-private hidden">SIGN OUT</a> 
+ </li> 
+</ul>
+				</div>
+					<nav aria-labelledby="top-shelf-navigation" class="top-shelf">
+						<ul>
+								<li><a href="https://www.jackson.com/dashboard/dashboard.xhtml">Dashboard</a></li>
+							<li><a href="https://www.jackson.com/frequently-asked-questions.html" aria-label="frequently asked questions">FAQs</a></li>
+								<li><a href="https://www.jackson.com/forms/forms.xhtml">Forms</a></li>
+								<li><a href="https://www.jackson.com/contact-us.html">Contact Us</a></li>
+								<li><a href="https://www.jackson.com/profile/index.xhtml">Profile</a></li>
+						</ul>
+					</nav>
+			</div>
+		</header>
+	</div>
+	<section class="breadcrumb clearfix" style="margin-top: 97px;">
+		<div><div class="loggedInUserName">
+				Welcome, <strong>Garth J Martinsen</strong></div>
+		</div>
+	</section>
+				<div class="page-header">
+					<div class="page-header-content">
+		<h1 id="BackToTop">Policy Details for 
+			1025394964
+			(Elite Access II) 
+		</h1>
+					</div>
+				</div>
+				
+			</div>
+			<div class="secure-page-wrapper">
+				<div class="secure-page-frame">
+						<div class="secure-left-nav">
+
+	<ul>
+		
+		<li class="nav-reload-item">
+			<a href="javascript:JWEB.Utility.reload();">Reload</a>
+		</li>
+<form id="consumerLeftNavPolicyDetailsForm" name="consumerLeftNavPolicyDetailsForm" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="consumerLeftNavPolicyDetailsForm" value="consumerLeftNavPolicyDetailsForm">
+
+			<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerLeftNavPolicyDetailsForm&#39;),{&#39;consumerLeftNavPolicyDetailsForm:j_idt262&#39;:&#39;consumerLeftNavPolicyDetailsForm:j_idt262&#39;},&#39;&#39;);return false">Policy Details</a>
+			</li><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form>
+				<li class="sub-menu">
+					<a href="javascript:void(0);">Trade</a>
+<form id="consumerTradeLeftNavForm" name="consumerTradeLeftNavForm" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="consumerTradeLeftNavForm" value="consumerTradeLeftNavForm">
+
+					<ul>
+						<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerTradeLeftNavForm&#39;),{&#39;consumerTradeLeftNavForm:j_idt268:0:j_idt270&#39;:&#39;consumerTradeLeftNavForm:j_idt268:0:j_idt270&#39;},&#39;&#39;);return false">Percentage Based Sub-Account to Sub-Account</a>
+						</li>
+						<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerTradeLeftNavForm&#39;),{&#39;consumerTradeLeftNavForm:j_idt268:1:j_idt270&#39;:&#39;consumerTradeLeftNavForm:j_idt268:1:j_idt270&#39;},&#39;&#39;);return false">Dollar Based Sub-Account to Sub-Account</a>
+						</li>
+						<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerTradeLeftNavForm&#39;),{&#39;consumerTradeLeftNavForm:j_idt268:2:j_idt270&#39;:&#39;consumerTradeLeftNavForm:j_idt268:2:j_idt270&#39;},&#39;&#39;);return false">Portfolio Reallocation</a>
+						</li>
+						<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerTradeLeftNavForm&#39;),{&#39;consumerTradeLeftNavForm:j_idt268:3:j_idt270&#39;:&#39;consumerTradeLeftNavForm:j_idt268:3:j_idt270&#39;},&#39;&#39;);return false">Create Auto Rebalance</a>
+						</li>
+						<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerTradeLeftNavForm&#39;),{&#39;consumerTradeLeftNavForm:j_idt268:4:j_idt270&#39;:&#39;consumerTradeLeftNavForm:j_idt268:4:j_idt270&#39;},&#39;&#39;);return false">Future Allocations</a>
+						</li>
+						<li><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;consumerTradeLeftNavForm&#39;),{&#39;consumerTradeLeftNavForm:j_idt268:5:j_idt270&#39;:&#39;consumerTradeLeftNavForm:j_idt268:5:j_idt270&#39;},&#39;&#39;);return false">Create DCA</a>
+						</li>
+					</ul><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form>
+				</li>
+				<li>
+					<a href="https://www.jackson.com/policy-detail/transaction-history.xhtml">Transaction History</a>
+				</li><!-- End is Pending Policy Check -->
+			<li>
+				<a href="https://www.jackson.com/filing-cabinet/filing-cabinet-consumer.xhtml">Client Filing Cabinet</a>
+			</li>
+			<li>
+				<a href="https://www.jackson.com/profile/client/update-contact-info.xhtml">Update Contact Info</a>
+			</li>
+			<li>
+				<a href="https://www.jackson.com/profile/client/client-contact-preferences.xhtml">Manage Preferences</a>
+			</li>
+			<li class="sub-menu">
+				<a href="javascript:void(0);">Forms</a>
+				
+				<ul>
+						<li><a href="https://www.jackson.com/forms/frequently-used-forms.xhtml">Frequently Used Forms</a></li>
+						<li><a href="https://www.jackson.com/forms/forms.xhtml">Forms Search</a></li>
+				</ul>
+			</li>
+		
+	</ul>
+						</div>
+					<div id="secure-page-content" class="secure-page-content"><div id="globalMessagesId" class="ui-messages ui-widget" aria-live="polite"></div>
+<form id="j_idt335" name="j_idt335" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt335" value="j_idt335">
+<script id="j_idt335:showGlobalMessage" type="text/javascript">showGlobalMessage = function() {PrimeFaces.ab({s:"j_idt335:showGlobalMessage",f:"j_idt335",p:"j_idt335:showGlobalMessage",u:"globalMessagesId",ps:true,onst:function(cfg){JWEB.Utility.hideValidationMessages('secure-page-content');;},oner:function(xhr,status,error){JWEB.Utility.showValidationMessages('secure-page-content');;},onco:function(xhr,status,args){JWEB.Utility.showValidationMessages('secure-page-content');;},pa:arguments[0]});}</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form><div id="confirmMessagePanel" class="ui-outputpanel ui-widget"></div>
+<form id="backtoresultForm" name="backtoresultForm" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="backtoresultForm" value="backtoresultForm">
+
+			<div class="policy-details-info clearfix"><div class="value-as-of-wrapper floatLeft">		
+					<h3>
+						Value As of Date:
+						09/23/2022
+					</h3></div>	
+			</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:4" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form>
+<form id="policyDetailsForm" name="policyDetailsForm" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="policyDetailsForm" value="policyDetailsForm">
+	
+			<div class="policy-details-column-wrapper clearfix"><div id="policyDetailsForm:policyDetailsPanel" class="policy-details-left-column floatLeft"><!-- TODO: Render if policy is in force -->
+					<div id="policyDetails" class="panel open">
+						<div class="panel-header">
+							Policy Details
+						</div>
+						<div class="panel-content-wrapper">
+							<div class="panel-content"><div class="label-value-pair"><span class="label">Policyholder:</span>
+									<span class="value">
+										Martinsen, Garth
+										
+									</span></div><div class="label-value-pair"><span class="label">Annuitant:</span>
+									<span class="value">
+										Martinsen, Garth
+										
+									</span></div><div class="label-value-pair"><span class="label">Product Name:</span><a href="https://www.jackson.com/annuities/variable-annuities/elite-access-ii-performance-center.html" class="value">Elite Access II</a></div><div class="label-value-pair"><span class="label">Annuity Type:</span><span class="value">Non-Tax Qualified</span></div><div class="label-value-pair"><span class="label">Policy Status:</span><span class="value">In Force</span></div><div class="label-value-pair"><span class="label">Issue Date:</span><span class="value">04/26/2022 </span></div><div class="label-value-pair"><span class="label">Current Statement:</span><a id="policyDetailsForm:j_idt385" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-commandlink ui-widget small-icon pdf-file-icon" onclick="PrimeFaces.ab({s:&quot;policyDetailsForm:j_idt385&quot;,onco:function(xhr,status,args){window.open(&#39;/filing-cabinet/document-viewer.xhtml&#39;);}});return false;"></a></div><div class="label-value-pair">	
+									<span class="label">
+										Maturity / Income Date <span id="policyDetailsForm:maturityIncomeDateTooltip" class="small-icon info-icon"></span>:
+									</span><span class="value">04/26/2043</span></div>
+							</div><div id="policyDetailsForm:j_idt394" class="ui-overlaypanel ui-widget ui-widget-content ui-overlay-hidden ui-corner-all ui-shadow tooltip"><div class="ui-overlaypanel-content">A date in the future chosen by the contract owner or Jackson when periodic distribution payments are anticipated to begin.</div></div>
+							
+							<div class="panel-content footer"><p>
+	<b>Note:</b> For Maturity/Income Date the contract owner may choose to begin distributions before the indicated date or extend the date to the latest available date in the future.
+	Please contact the Jackson Service Center for additional details regarding how Jackson determines the Maturity/Income Date.
+</p>
+							</div>
+						</div>
+					</div></div>
+
+				<div class="policy-details-right-column floatRight"><div id="policyDetailsForm:policyDetailsInforceValuePanel" class="panel open">
+						<div class="panel-header">Historical Values</div>
+						
+						<div class="panel-content-wrapper">
+								<div class="panel-content">
+									<div class="field-validation-container clearfix">
+										<div class="field-validation-message"><div id="policyDetailsForm:valueAsOfDateValidationMessage" aria-live="polite" class="ui-message"></div>
+										</div>
+									</div>
+								
+									<div class="label-input-pair"><label class="label">Value As of Date:</label><span id="policyDetailsForm:valueAsOfDate" class="ui-calendar ui-trigger-calendar"><input id="policyDetailsForm:valueAsOfDate_input" name="policyDetailsForm:valueAsOfDate_input" type="text" aria-required="true" value="09/23/2022" class="ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker" role="textbox" aria-disabled="false" aria-readonly="false"><button type="button" class="ui-datepicker-trigger ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" aria-label="Show Calendar" aria-haspopup="true" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-icon-calendar"></span><span class="ui-button-text">ui-button</span></button></span>
+									</div><a id="policyDetailsForm:j_idt514" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-commandlink ui-widget policy-details-link" onclick="PrimeFaces.ab({s:&quot;policyDetailsForm:j_idt514&quot;,u:&quot;globalMessagesId policyDetailsForm:valueAsOfDateValidationMessage&quot;,onco:function(xhr,status,args){if (args &amp;&amp; args.validationFailed) { showGlobalMessage(); } else { initHistoricalValues(); };}});return false;">Values</a>
+									
+									<br><a id="policyDetailsForm:historicalAllocationLink" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-commandlink ui-widget policy-details-link" onclick="PrimeFaces.ab({s:&quot;policyDetailsForm:historicalAllocationLink&quot;,u:&quot;globalMessagesId policyDetailsForm:valueAsOfDateValidationMessage&quot;,onco:function(xhr,status,args){if (args &amp;&amp; args.validationFailed) { showGlobalMessage(); } else {initHistoricalAssetAllocationChart(); };}});return false;">Asset Allocation</a><script id="policyDetailsForm:initHistoricalValues" type="text/javascript">initHistoricalValues = function() {PrimeFaces.ab({s:"policyDetailsForm:initHistoricalValues",f:"policyDetailsForm",u:"dialogForm:valueAsOfDateDialog",onco:function(xhr,status,args){PF('valueAsOfDateDialog').show();;},pa:arguments[0]});}</script><script id="policyDetailsForm:initHistoricalAssetAllocationChart" type="text/javascript">initHistoricalAssetAllocationChart = function() {PrimeFaces.ab({s:"policyDetailsForm:initHistoricalAssetAllocationChart",f:"policyDetailsForm",u:"dialogForm:historyAssetAllocationChartDialog",onco:function(xhr,status,args){initAllocationChart(); PF('historyAssetAllocationChartDialog').show();;},pa:arguments[0]});}</script><span id="policyDetailsForm:historicalAllocationTooltipPanel">
+										<span class="label">
+										</span></span>
+								</div>
+						</div></div><div id="policyDetailsForm:policyDetailClientLevelOnePanel" class="panel open">
+						<div class="panel-header">My Representative</div>
+						
+						<div class="panel-content-wrapper">
+							<div class="panel-content"><div class="label-value-pair"><span class="value">BRYCE J WINKEL</span></div><div class="label-value-pair"><span class="label">Tel:</span><span class="value">(503) 6844010</span></div>
+							</div>
+						</div></div>
+				</div>
+			</div>
+			
+			<div id="additionalDetails" class="panel open">
+				<div class="panel-header">
+					Additional Details
+				</div>
+				
+				<div class="panel-content-wrapper"><div id="policyDetailsForm:addlDetailsPanel" class="panel-content two-column"><div class="label-value-pair"><span class="label">Total Deposits:</span><span class="value">$60,000.00</span></div><div class="label-value-pair"><span class="label">Total Death Benefit:</span><span class="value">$60,000.00</span></div><div class="label-value-pair"><span class="label">Accumulated Value:</span><span class="value">$55,225.77</span></div><div class="label-value-pair"><span class="label">Surrender Charge Amount:</span><span class="value">$3,510.00</span></div><div class="label-value-pair"><span class="label">Surrender Free Amount Available<sup>1</sup>:</span><span class="value">$6,000.00</span></div><div class="label-value-pair"><span class="label">Market Value Adjustment:</span><span class="value">$0.00</span></div><div class="label-value-pair"><span class="label">Cash Surrender Value:</span><span class="value">$51,697.76</span></div></div>
+					
+					<div class="clearfix">
+						<div class="panel-content footer floatLeft width-75-percent"><p>
+	1. Surrender Free Amount does not include premiums that are no longer subject to a surrender charge.
+</p><p>
+	<b>Note:</b> For Required Minimum Distributions (RMD), the Fair Market Value (FMV) of an annuity includes the actuarial value of any additional benefits that the annuity provides, including enhanced death benefits, living benefits, and income guarantees.
+</p>
+						</div>
+							<div class="panel-button-wrapper">
+								<a class="primary button" href="https://customer-self-service.jackson.com/#policy-number=1025394964&amp;amp;company-code=JNL" target="">WITHDRAW FUNDS</a>
+							</div>
+					</div>				
+				</div>
+			</div>
+			
+			<a class="back-to-top policy-details-link" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#BackToTop">Back to Top</a>
+
+	<div id="primaryBenePanel" class="panel open">
+		<div class="panel-header">
+			Beneficiaries (As of
+			<span id="policyDetailsForm:beneAsOfDate">09/23/2022</span>
+			)
+		</div><div id="policyDetailsForm:primaryBenePanelGroup">
+			<div class="panel-content-wrapper">
+				<div class="panel-content clearfix"><a id="policyDetailsForm:beneFormLink" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" onclick="mojarra.jsfcljs(document.getElementById(&#39;policyDetailsForm&#39;),{&#39;policyDetailsForm:beneFormLink&#39;:&#39;policyDetailsForm:beneFormLink&#39;},&#39;_blank&#39;);return false" class="download floatRight">Beneficiary Change Form</a>
+				</div><div class="panel-content beneficiaries">
+
+
+					<div>
+						<div class="bene-titles"><span class="title">Primary Beneficiaries</span>
+						</div><div id="policyDetailsForm:j_idt639" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="policyDetailsForm:j_idt639_head"><tr role="row"><th id="policyDetailsForm:j_idt639:j_idt640" class="ui-sortable-column" role="columnheader" aria-label="Name: activate to sort column ascending" scope="col" style=" width:34% " tabindex="0" aria-sort="other"><span class="ui-column-title"><span class="bold">Name</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:j_idt639:j_idt643" class="ui-sortable-column" role="columnheader" aria-label="Relationship: activate to sort column ascending" scope="col" style=" width:33% " tabindex="0"><span class="ui-column-title"><span class="bold">Relationship</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:j_idt639:j_idt646" class="ui-sortable-column" role="columnheader" aria-label="Percentage: activate to sort column ascending" scope="col" style=" width:33% " tabindex="0"><span class="ui-column-title"><span class="bold">Percentage</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead><tbody id="policyDetailsForm:j_idt639_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><span class="value">Martinsen, Elizabeth</span></td><td role="gridcell"><span class="value">Spouse</span></td><td role="gridcell"><span class="value">100</span>%
+							</td></tr></tbody></table></div></div>
+
+					</div>
+
+					<div class="flex-item">
+
+						<div class="bene-titles"><span class="title">Contingent Beneficiaries</span>
+						</div><div id="policyDetailsForm:j_idt653" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="policyDetailsForm:j_idt653_head"><tr role="row"><th id="policyDetailsForm:j_idt653:j_idt654" class="ui-sortable-column" role="columnheader" aria-label="Name: activate to sort column ascending" scope="col" style=" width:34% " tabindex="0" aria-sort="other"><span class="ui-column-title"><span class="bold">Name</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:j_idt653:j_idt657" class="ui-sortable-column" role="columnheader" aria-label="Relationship: activate to sort column ascending" scope="col" style=" width:33% " tabindex="0"><span class="ui-column-title"><span class="bold">Relationship</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:j_idt653:j_idt660" class="ui-sortable-column" role="columnheader" aria-label="Percentage: activate to sort column ascending" scope="col" style=" width:33% " tabindex="0"><span class="ui-column-title"><span class="bold">Percentage</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead><tbody id="policyDetailsForm:j_idt653_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="3">Contingent Beneficiaries are not currently available. If a contingent beneficiary was provided, it is stored in our permanent records and available upon request.  If you would like to add a contingent beneficiary, please complete the Beneficiary Change form.  If you would like to confirm your beneficiary a Customer Service Advocate at (800)644-4565 should be able to assist you in making appropriate modifications as requested.</td></tr></tbody></table></div></div>
+					</div></div>
+			</div></div>
+	</div>
+	<a class="back-to-top policy-details-link" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#BackToTop">Back
+		to Top</a><script id="policyDetailsForm:j_idt679" type="text/javascript">loadBeneficiaryData = function() {PrimeFaces.ab({s:"policyDetailsForm:j_idt679",f:"policyDetailsForm",p:"policyDetailsForm:j_idt679",u:"policyDetailsForm:primaryBenePanelGroup policyDetailsForm:beneAsOfDate",a:true,ps:true,pa:arguments[0]});};$(function() {loadBeneficiaryData();});</script>
+				<div id="clientInfoPanel" class="panel open">
+					<div class="panel-header">
+						Names and Addresses
+					</div>
+					
+					<div class="panel-content-wrapper"><div id="policyDetailsForm:addressTable" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="policyDetailsForm:addressTable_head"><tr role="row"><th id="policyDetailsForm:addressTable:j_idt682" class="ui-state-default" role="columnheader" aria-label="Policyholder" scope="col"><span class="ui-column-title"><span class="bold">Policyholder</span><a id="policyDetailsForm:addressTable:j_idt684" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-commandlink ui-widget edit-contact-link" onclick="PrimeFaces.ab({s:&quot;policyDetailsForm:addressTable:j_idt684&quot;,p:&quot;policyDetailsForm:addressTable:j_idt684&quot;,u:&quot;dialogForm:editContactInfoDialog&quot;,onco:function(xhr,status,args){PF(&#39;editContactInfoDialog&#39;).show();}});return false;">[Edit]</a></span></th><th id="policyDetailsForm:addressTable:j_idt727" class="ui-state-default" role="columnheader" aria-label="Annuitant" scope="col"><span class="ui-column-title"><span class="bold">Annuitant</span><a id="policyDetailsForm:addressTable:j_idt729" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-commandlink ui-widget edit-contact-link" onclick="PrimeFaces.ab({s:&quot;policyDetailsForm:addressTable:j_idt729&quot;,p:&quot;policyDetailsForm:addressTable:j_idt729&quot;,u:&quot;dialogForm:editContactInfoDialog&quot;,onco:function(xhr,status,args){PF(&#39;editContactInfoDialog&#39;).show();}});return false;">[Edit]</a></span></th></tr></thead><tbody id="policyDetailsForm:addressTable_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><span class="value">Martinsen, Garth J.</span><br><span class="value">17165 SW Johnson St.</span><br><span class="value">Aloha, OR 97003</span></td><td role="gridcell"><span class="value">Martinsen, Garth J.</span><br><span class="value">17165 SW Johnson St.</span><br><span class="value">Aloha, OR 97003</span></td></tr></tbody></table></div></div>
+					</div>
+				</div>
+				
+				<a class="back-to-top policy-details-link" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#BackToTop">Back to Top</a>
+				<div id="optionalBenefitsPanel" class="panel open">
+					<div class="panel-header">
+						Optional Benefits
+						
+					</div>
+					
+					<div class="panel-content-wrapper"><div id="policyDetailsForm:additionalBenefitsTable" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="policyDetailsForm:additionalBenefitsTable_head"><tr role="row"><th id="policyDetailsForm:additionalBenefitsTable:j_idt923" class="ui-state-default" role="columnheader" aria-label="Additional Benefits" scope="col"><span class="ui-column-title"><span class="bold">Additional Benefits</span></span></th><th id="policyDetailsForm:additionalBenefitsTable:j_idt927" class="ui-state-default" role="columnheader" aria-label="Effective Date" scope="col"><span class="ui-column-title"><span class="bold">Effective Date</span></span></th></tr></thead><tbody id="policyDetailsForm:additionalBenefitsTable_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><span class="value">Return of Premium DB 09/17</span><br></td><td role="gridcell"><span class="value">04/26/2022</span></td></tr></tbody></table></div></div>
+					</div>
+				</div>
+
+				<a class="back-to-top policy-details-link" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#BackToTop">Back to Top</a>
+				<div id="subAccountsPanel" class="panel open">
+					<div class="panel-header">
+						Sub-accounts
+					</div>
+					
+					<div class="panel-content-wrapper">
+						<div class="panel-content"><a id="policyDetailsForm:j_idt937" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-commandlink ui-widget policy-details-link" onclick="PF(&#39;assetAllocationChartDialog&#39;).show();;PrimeFaces.ab({s:&quot;policyDetailsForm:j_idt937&quot;});return false;">Asset Allocation Chart</a>
+						</div><div id="policyDetailsForm:subAccountTable" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="policyDetailsForm:subAccountTable_head"><tr role="row"><th id="policyDetailsForm:subAccountTable:j_idt939" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Name: activate to sort column ascending" scope="col" tabindex="0"><span class="ui-column-title"><span class="bold">Name</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:subAccountTable:j_idt944" class="ui-state-default ui-sortable-column ui-state-active" role="columnheader" aria-label="Number: activate to sort column descending" scope="col" style="width:70px" tabindex="0" aria-sort="ascending"><span class="ui-column-title"><span class="bold">Number</span></span><span class="ui-sortable-column-icon ui-icon ui-icon ui-icon-carat-2-n-s ui-icon-triangle-1-n"></span></th><th id="policyDetailsForm:subAccountTable:j_idt947" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Future Allocation %: activate to sort column ascending" scope="col" style="width:80px" tabindex="0"><span class="ui-column-title"><span class="bold">Future Allocation %</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:subAccountTable:j_idt951" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Number of Units: activate to sort column ascending" scope="col" style="width:70px" tabindex="0"><span class="ui-column-title"><span class="bold">Number of Units</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:subAccountTable:j_idt954" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Accumulation Unit Values: activate to sort column ascending" scope="col" style="width:75px" tabindex="0"><span class="ui-column-title"><span class="bold">Accumulation Unit Values</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:subAccountTable:j_idt957" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Total Sub-account by Percent: activate to sort column ascending" scope="col" style="width:70px" tabindex="0"><span class="ui-column-title"><span class="bold">Total Sub-account by Percent</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="policyDetailsForm:subAccountTable:j_idt960" class="ui-state-default ui-sortable-column" role="columnheader" aria-label="Total Sub-account Value: activate to sort column ascending" scope="col" style="width:70px" tabindex="0"><span class="ui-column-title"><span class="bold">Total Sub-account Value</span></span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead><tbody id="policyDetailsForm:subAccountTable_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=66" target="_blank"><span class="value">JNL/BlackRock<sup>®</sup> Global Natural Resources</span></a></td><td role="gridcell"><span class="value">66</span></td><td role="gridcell"><span class="value">15</span><span class="value">%</span></td><td role="gridcell"><span class="value">738.3417</span></td><td role="gridcell"><span class="value">10.550803</span></td><td role="gridcell"><span class="value">14.11%</span></td><td role="gridcell"><span class="value">$7,790.10</span></td></tr><tr data-ri="1" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=115" target="_blank"><span class="value">JNL/DFA U.S. Core Equity</span></a></td><td role="gridcell"><span class="value">115</span></td><td role="gridcell"><span class="value"></span></td><td role="gridcell"><span class="value">109.3638</span></td><td role="gridcell"><span class="value">49.620976</span></td><td role="gridcell"><span class="value">9.83%</span></td><td role="gridcell"><span class="value">$5,426.74</span></td></tr><tr data-ri="2" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=190" target="_blank"><span class="value">JNL/Mellon Energy Sector</span></a></td><td role="gridcell"><span class="value">190</span></td><td role="gridcell"><span class="value">15</span><span class="value">%</span></td><td role="gridcell"><span class="value">223.2304</span></td><td role="gridcell"><span class="value">39.365075</span></td><td role="gridcell"><span class="value">15.91%</span></td><td role="gridcell"><span class="value">$8,787.48</span></td></tr><tr data-ri="3" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=222" target="_blank"><span class="value">JNL/Mellon Nasdaq<sup>®</sup> 100 Index</span></a></td><td role="gridcell"><span class="value">222</span></td><td role="gridcell"><span class="value"></span></td><td role="gridcell"><span class="value">153.7046</span></td><td role="gridcell"><span class="value">54.450367</span></td><td role="gridcell"><span class="value">15.15%</span></td><td role="gridcell"><span class="value">$8,369.27</span></td></tr><tr data-ri="4" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=347" target="_blank"><span class="value">JNL/First Sentier Global Infrastructure</span></a></td><td role="gridcell"><span class="value">347</span></td><td role="gridcell"><span class="value">10</span><span class="value">%</span></td><td role="gridcell"><span class="value">0.0</span></td><td role="gridcell"><span class="value">17.663047</span></td><td role="gridcell"><span class="value">0.00%</span></td><td role="gridcell"><span class="value">$0.00</span></td></tr><tr data-ri="5" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=365" target="_blank"><span class="value">JNL/Invesco Diversified Dividend</span></a></td><td role="gridcell"><span class="value">365</span></td><td role="gridcell"><span class="value">15</span><span class="value">%</span></td><td role="gridcell"><span class="value">671.7813</span></td><td role="gridcell"><span class="value">12.090299</span></td><td role="gridcell"><span class="value">14.71%</span></td><td role="gridcell"><span class="value">$8,122.04</span></td></tr><tr data-ri="6" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=368" target="_blank"><span class="value">JNL/Mellon Consumer Staples Sector</span></a></td><td role="gridcell"><span class="value">368</span></td><td role="gridcell"><span class="value">10</span><span class="value">%</span></td><td role="gridcell"><span class="value">394.1159</span></td><td role="gridcell"><span class="value">13.384536</span></td><td role="gridcell"><span class="value">9.55%</span></td><td role="gridcell"><span class="value">$5,275.06</span></td></tr><tr data-ri="7" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=606" target="_blank"><span class="value">JNL/Newton Equity Income</span></a></td><td role="gridcell"><span class="value">606</span></td><td role="gridcell"><span class="value">10</span><span class="value">%</span></td><td role="gridcell"><span class="value">190.736</span></td><td role="gridcell"><span class="value">28.974752</span></td><td role="gridcell"><span class="value">10.01%</span></td><td role="gridcell"><span class="value">$5,526.53</span></td></tr><tr data-ri="8" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=635" target="_blank"><span class="value">JNL/Mellon Utilities Sector</span></a></td><td role="gridcell"><span class="value">635</span></td><td role="gridcell"><span class="value">10</span><span class="value">%</span></td><td role="gridcell"><span class="value">288.4467</span></td><td role="gridcell"><span class="value">20.553372</span></td><td role="gridcell"><span class="value">10.74%</span></td><td role="gridcell"><span class="value">$5,928.55</span></td></tr><tr data-ri="9" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell"><a href="https://www.jackson.com/morningstar/profile.xhtml?productId=198&amp;fundId=643" target="_blank"><span class="value">JNL/Neuberger Berman Commodity Strategy</span></a></td><td role="gridcell"><span class="value">643</span></td><td role="gridcell"><span class="value">15</span><span class="value">%</span></td><td role="gridcell"><span class="value">0.0</span></td><td role="gridcell"><span class="value">8.992041</span></td><td role="gridcell"><span class="value">0.00%</span></td><td role="gridcell"><span class="value">$0.00</span></td></tr></tbody></table></div></div>
+					</div>
+				</div>
+				
+				<a class="back-to-top policy-details-link" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#BackToTop">Back to Top</a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:5" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form>
+<form id="dialogForm" name="dialogForm" method="post" action="https://www.jackson.com/policy-detail/variable-annuity.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="dialogForm" value="dialogForm">
+<div id="dialogForm:valueAsOfDateDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="width: 850px; height: auto; left: 410px; top: 315.5px; z-index: 1051; display: block;" role="dialog" aria-labelledby="dialogForm:valueAsOfDateDialog_title" aria-hidden="false" aria-live="polite"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="dialogForm:valueAsOfDateDialog_title" class="ui-dialog-title">Value As of Date</span><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto; width: auto;">
+				<div class="panel">
+					<div class="panel-content-wrapper"><div id="dialogForm:printOnlyValueAsOfDateInfo" class="panel-content two-column">
+							<div class="label-value-pair"><span class="label">Policy Owner:</span><span class="value">Martinsen, Garth J.</span>
+							</div>
+							
+							<div class="label-value-pair"><span class="label">Annuity Type:</span><span class="value">Non-Tax Qualified</span>
+							</div>
+							
+							<div class="label-value-pair"><span class="label">Policy Number:</span><span class="value">1025394964</span>
+							</div>
+							
+							<div class="label-value-pair clearfix"><span class="label floatLeft">Address:</span>
+								
+								<div class="value floatLeft">17165 SW Johnson St.<br>Aloha, OR 97003
+								</div>
+							</div></div>
+						
+						<div class="panel-header">
+							Value As of Date
+						</div>
+						
+						<table>
+							<tbody><tr>
+								<th>  </th>
+								<th>Value As of
+									09/14/2022 
+								</th>
+								<th>Value As of
+									09/23/2022 
+								</th>
+								<th>Change</th>
+							</tr>
+							<tr>
+								<td>Total Contract Value</td>
+								<td>$59,994.18
+								</td>
+								<td>$55,225.77
+								</td>
+								<td>($4,768.41)
+								</td>
+							</tr>
+							<tr>
+								<td>Cash Surrender Value</td>
+								<td>$56,467.55
+								</td>
+								<td>$51,697.76
+								</td>
+								<td>($4,769.79)
+								</td>
+							</tr>
+						</tbody></table>
+						
+						<div class="panel-content"><p>
+	<b>Note:</b> For Required Minimum Distributions (RMD), the Fair Market Value (FMV) of an annuity includes the actuarial value of any additional benefits that the annuity provides, including enhanced death benefits, living benefits, and income guarantees.
+</p>
+						</div>
+							<div class="panel-header">
+								Subaccounts
+							</div><div id="dialogForm:valueAsOfSubaccountTable" class="ui-datatable ui-widget ui-datatable-scrollable"><div class="ui-widget-header ui-datatable-scrollable-header"><div class="ui-datatable-scrollable-header-box"><table role="grid"><thead id="dialogForm:valueAsOfSubaccountTable_head"><tr class="hidden-sizes"><th id="dialogForm:valueAsOfSubaccountTable:j_idt1031" class="ui-state-default" role="columnheader" scope="col" style="width: 298px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1032" class="ui-state-default" role="columnheader" scope="col" style="width: 78px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1033" class="ui-state-default" role="columnheader" scope="col" style="width: 78px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1034" class="ui-state-default" role="columnheader" scope="col" style="width: 78px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1035" class="ui-state-default" role="columnheader" scope="col" style="width: 77px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1036" class="ui-state-default" role="columnheader" scope="col" style="width: 77px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1037" class="ui-state-default" role="columnheader" scope="col" style="width: 77px;"><span class="ui-column-title"></span></th></tr><tr><th id="dialogForm:valueAsOfSubaccountTable:j_idt1039" class="ui-state-default" role="columnheader" aria-label="Fund Name" scope="col" rowspan="2" style="width: 304px;"><span class="ui-column-title">Fund Name</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1040" class="ui-state-default alignRight" role="columnheader" aria-label="Value As of " scope="col" colspan="3" style="width: 259px;"><span class="ui-column-title">Value As of 09/14/2022</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1043" class="ui-state-default alignRight" role="columnheader" aria-label="Value As of " scope="col" colspan="3" style="width: 256px;"><span class="ui-column-title">Value As of 09/23/2022</span></th></tr><tr><th id="dialogForm:valueAsOfSubaccountTable:j_idt1047" class="ui-state-default alignRight" role="columnheader" aria-label="Number of Units" scope="col" style="width: 80px;"><span class="ui-column-title">Number of Units</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1048" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulation Unit Values" scope="col" style="width: 80px;"><span class="ui-column-title">Accumulation Unit Values</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1049" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulated Value" scope="col" style="width: 80px;"><span class="ui-column-title">Accumulated Value</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1050" class="ui-state-default alignRight" role="columnheader" aria-label="Number of Units" scope="col" style="width: 79px;"><span class="ui-column-title">Number of Units</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1051" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulation Unit Values" scope="col" style="width: 79px;"><span class="ui-column-title">Accumulation Unit Values</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1052" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulated Value" scope="col" style="width: 79px;"><span class="ui-column-title">Accumulated Value</span></th></tr></thead></table></div></div><div class="ui-datatable-scrollable-body" tabindex="-1"><table role="grid"><thead class="ui-datatable-scrollable-theadclone" style="height: 0px;" id="_idgpn_65"><tr class="hidden-sizes"><th id="dialogForm:valueAsOfSubaccountTable:j_idt1031_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 298px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1032_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 78px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1033_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 78px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1034_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 78px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1035_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 77px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1036_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 77px;"><span class="ui-column-title"></span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1037_clone" class="ui-state-default" role="columnheader" scope="col" style="width: 77px;"><span class="ui-column-title"></span></th></tr><tr><th id="dialogForm:valueAsOfSubaccountTable:j_idt1039_clone" class="ui-state-default" role="columnheader" aria-label="Fund Name" scope="col" rowspan="2" style="width: 304px;"><span class="ui-column-title">Fund Name</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1040_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Value As of " scope="col" colspan="3" style="width: 259px;"><span class="ui-column-title">Value As of 09/14/2022</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1043_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Value As of " scope="col" colspan="3" style="width: 256px;"><span class="ui-column-title">Value As of 09/23/2022</span></th></tr><tr><th id="dialogForm:valueAsOfSubaccountTable:j_idt1047_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Number of Units" scope="col" style="width: 80px;"><span class="ui-column-title">Number of Units</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1048_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulation Unit Values" scope="col" style="width: 80px;"><span class="ui-column-title">Accumulation Unit Values</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1049_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulated Value" scope="col" style="width: 80px;"><span class="ui-column-title">Accumulated Value</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1050_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Number of Units" scope="col" style="width: 79px;"><span class="ui-column-title">Number of Units</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1051_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulation Unit Values" scope="col" style="width: 79px;"><span class="ui-column-title">Accumulation Unit Values</span></th><th id="dialogForm:valueAsOfSubaccountTable:j_idt1052_clone" class="ui-state-default alignRight" role="columnheader" aria-label="Accumulated Value" scope="col" style="width: 79px;"><span class="ui-column-title">Accumulated Value</span></th></tr></thead><tbody id="dialogForm:valueAsOfSubaccountTable_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell">JNL/BlackRock<sup>®</sup> Global Natural Resources</td><td role="gridcell" class="alignRight">738.3417</td><td role="gridcell" class="alignRight">11.784636</td><td role="gridcell" class="alignRight">$8,701.09</td><td role="gridcell" class="alignRight">738.3417</td><td role="gridcell" class="alignRight">10.550803</td><td role="gridcell" class="alignRight">$7,790.10</td></tr><tr data-ri="1" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell">JNL/DFA U.S. Core Equity</td><td role="gridcell" class="alignRight">109.3638</td><td role="gridcell" class="alignRight">53.262307</td><td role="gridcell" class="alignRight">$5,824.97</td><td role="gridcell" class="alignRight">109.3638</td><td role="gridcell" class="alignRight">49.620976</td><td role="gridcell" class="alignRight">$5,426.74</td></tr><tr data-ri="2" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell">JNL/First Sentier Global Infrastructure</td><td role="gridcell" class="alignRight">0.0</td><td role="gridcell" class="alignRight">19.098714</td><td role="gridcell" class="alignRight">$0.00</td><td role="gridcell" class="alignRight">0.0</td><td role="gridcell" class="alignRight">17.663047</td><td role="gridcell" class="alignRight">$0.00</td></tr><tr data-ri="3" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell">JNL/Invesco Diversified Dividend</td><td role="gridcell" class="alignRight">671.7813</td><td role="gridcell" class="alignRight">12.868115</td><td role="gridcell" class="alignRight">$8,644.56</td><td role="gridcell" class="alignRight">671.7813</td><td role="gridcell" class="alignRight">12.090299</td><td role="gridcell" class="alignRight">$8,122.04</td></tr><tr data-ri="4" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell">JNL/Mellon Consumer Staples Sector</td><td role="gridcell" class="alignRight">394.1159</td><td role="gridcell" class="alignRight">13.816019</td><td role="gridcell" class="alignRight">$5,445.11</td><td role="gridcell" class="alignRight">394.1159</td><td role="gridcell" class="alignRight">13.384536</td><td role="gridcell" class="alignRight">$5,275.06</td></tr><tr data-ri="5" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell">JNL/Mellon Energy Sector</td><td role="gridcell" class="alignRight">223.2304</td><td role="gridcell" class="alignRight">45.670444</td><td role="gridcell" class="alignRight">$10,195.03</td><td role="gridcell" class="alignRight">223.2304</td><td role="gridcell" class="alignRight">39.365075</td><td role="gridcell" class="alignRight">$8,787.48</td></tr><tr data-ri="6" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell">JNL/Mellon Nasdaq<sup>®</sup> 100 Index</td><td role="gridcell" class="alignRight">153.7046</td><td role="gridcell" class="alignRight">58.436512</td><td role="gridcell" class="alignRight">$8,981.96</td><td role="gridcell" class="alignRight">153.7046</td><td role="gridcell" class="alignRight">54.450367</td><td role="gridcell" class="alignRight">$8,369.27</td></tr><tr data-ri="7" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell">JNL/Mellon Utilities Sector</td><td role="gridcell" class="alignRight">288.4467</td><td role="gridcell" class="alignRight">21.807369</td><td role="gridcell" class="alignRight">$6,290.26</td><td role="gridcell" class="alignRight">288.4467</td><td role="gridcell" class="alignRight">20.553372</td><td role="gridcell" class="alignRight">$5,928.55</td></tr><tr data-ri="8" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell">JNL/Neuberger Berman Commodity Strategy</td><td role="gridcell" class="alignRight">0.0</td><td role="gridcell" class="alignRight">9.508381</td><td role="gridcell" class="alignRight">$0.00</td><td role="gridcell" class="alignRight">0.0</td><td role="gridcell" class="alignRight">8.992041</td><td role="gridcell" class="alignRight">$0.00</td></tr><tr data-ri="9" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell">JNL/Newton Equity Income</td><td role="gridcell" class="alignRight">190.736</td><td role="gridcell" class="alignRight">30.991544</td><td role="gridcell" class="alignRight">$5,911.20</td><td role="gridcell" class="alignRight">190.736</td><td role="gridcell" class="alignRight">28.974752</td><td role="gridcell" class="alignRight">$5,526.53</td></tr></tbody></table></div><div class="ui-widget-header ui-datatable-scrollable-footer"><div class="ui-datatable-scrollable-footer-box"><table role="grid"></table></div></div><input type="hidden" id="dialogForm:valueAsOfSubaccountTable_scrollState" name="dialogForm:valueAsOfSubaccountTable_scrollState" autocomplete="off" value="0,0"></div>
+					</div>
+				</div></div></div><div id="dialogForm:assetAllocationChartDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="width: 850px; height: auto;" role="dialog" aria-labelledby="dialogForm:assetAllocationChartDialog_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="dialogForm:assetAllocationChartDialog_title" class="ui-dialog-title">Asset Allocation Chart</span><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+	
+	<div class="panel">
+		<div class="panel-content-wrapper">
+			<div id="assetAllocation_pieChart" class="panel-content"><div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 800px; height: 300px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="300"><defs><clippath id="highcharts-1"><rect rx="0" ry="0" fill="none" x="0" y="0" width="9999" height="300" stroke-width="0.000001"></rect></clippath><clippath id="highcharts-2"><rect fill="none" x="0" y="0" width="755" height="270"></rect></clippath></defs><rect rx="5" ry="5" fill="rgb(244,244,243)" x="0" y="0" width="800" height="300" stroke-width="0.000001" fill-opacity="0"></rect><g class="highcharts-series-group" zIndex="3"></g><g class="highcharts-shadow" zIndex="4" transform="translate(35,20)"><path fill="none" d="M 199.97657758157504 10.00000238525952 A 115 115 0 0 1 287.65988297417647 199.43618016095186 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="5" stroke-linejoin="round" isShadow="true" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"></path><path fill="none" d="M 199.97657758157504 10.00000238525952 A 115 115 0 0 1 287.65988297417647 199.43618016095186 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="3" stroke-linejoin="round" isShadow="true" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"></path><path fill="none" d="M 199.97657758157504 10.00000238525952 A 115 115 0 0 1 287.65988297417647 199.43618016095186 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="1" stroke-linejoin="round" isShadow="true" stroke-opacity="0.15" transform="translate(1, 1)"></path></g><g class="highcharts-shadow" zIndex="4" transform="translate(35,20)"><path fill="none" d="M 287.6598085379525 199.43626782079764 A 115 115 0 0 1 197.7918282951022 239.97879794867265 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="5" stroke-linejoin="round" isShadow="true" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"></path><path fill="none" d="M 287.6598085379525 199.43626782079764 A 115 115 0 0 1 197.7918282951022 239.97879794867265 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="3" stroke-linejoin="round" isShadow="true" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"></path><path fill="none" d="M 287.6598085379525 199.43626782079764 A 115 115 0 0 1 197.7918282951022 239.97879794867265 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="1" stroke-linejoin="round" isShadow="true" stroke-opacity="0.15" transform="translate(1, 1)"></path></g><g class="highcharts-shadow" zIndex="4" transform="translate(35,20)"><path fill="none" d="M 197.79171331630536 239.97879574044345 A 115 115 0 0 1 199.9551522568974 10.000008744870172 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="5" stroke-linejoin="round" isShadow="true" stroke-opacity="0.049999999999999996" transform="translate(1, 1)"></path><path fill="none" d="M 197.79171331630536 239.97879574044345 A 115 115 0 0 1 199.9551522568974 10.000008744870172 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="3" stroke-linejoin="round" isShadow="true" stroke-opacity="0.09999999999999999" transform="translate(1, 1)"></path><path fill="none" d="M 197.79171331630536 239.97879574044345 A 115 115 0 0 1 199.9551522568974 10.000008744870172 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="black" stroke-width="1" stroke-linejoin="round" isShadow="true" stroke-opacity="0.15" transform="translate(1, 1)"></path></g><g class="highcharts-point" zIndex="5" transform="translate(35,20)"><path fill="#a2d5ff" d="M 199.97657758157504 10.00000238525952 A 115 115 0 0 1 287.65988297417647 199.43618016095186 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"></path><path fill="rgb(192,192,192)" d="M 199.97657758157504 10.00000238525952 A 115 115 0 0 1 287.65988297417647 199.4361801609519 L 200 125 A 0 0 0 0 0 200 125 Z" isTracker="1664041306014" fill-opacity="0.000001" visibility="visible" style=""></path></g><g class="highcharts-point" zIndex="5" transform="translate(35,20)"><path fill="#8a7143" d="M 287.6598085379525 199.43626782079764 A 115 115 0 0 1 197.7918282951022 239.97879794867265 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"></path><path fill="rgb(192,192,192)" d="M 287.6598085379525 199.43626782079764 A 115 115 0 0 1 197.7918282951022 239.97879794867265 L 200 125 A 0 0 0 0 0 200 125 Z" isTracker="1664041306014" fill-opacity="0.000001" visibility="visible" style=""></path></g><g class="highcharts-point" zIndex="5" transform="translate(35,20)"><path fill="#5285b3" d="M 197.79171331630536 239.97879574044345 A 115 115 0 0 1 199.9551522568974 10.000008744870172 L 200 125 A 0 0 0 0 0 200 125 Z" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"></path><path fill="rgb(192,192,192)" d="M 197.79171331630533 239.97879574044345 A 115 115 0 0 1 199.9551522568974 10.000008744870172 L 200 125 A 0 0 0 0 0 200 125 Z" isTracker="1664041306014" fill-opacity="0.000001" visibility="visible" style=""></path></g><g class="highcharts-legend" zIndex="7" transform="translate(392,60)"><rect rx="5" ry="5" fill="none" x="0" y="0" width="328" height="44" stroke-width="0.000001" stroke="none" visibility="visible"></rect><g zIndex="1" clip-path="url(#highcharts-1)"><g><g class="highcharts-legend-item" zIndex="1" transform="translate(3,-2)"><text x="21" y="14" style="font-family:Arial;font-size:11px;cursor:pointer;color:#6A6C71;fill:#6A6C71;" text-anchor="start" zIndex="2"><tspan style="fill:#a2d5ff" x="21">36.20%</tspan><tspan dx="3">  Sector Equity                           </tspan></text><rect rx="2" ry="2" fill="#a2d5ff" x="0" y="3" width="16" height="12" stroke-width="0.000001" zIndex="3" stroke="#a2d5ff"></rect></g><g class="highcharts-legend-item" zIndex="1" transform="translate(3,12.5)"><text x="21" y="14" style="font-family:Arial;font-size:11px;cursor:pointer;color:#6A6C71;fill:#6A6C71;" text-anchor="start" zIndex="2"><tspan style="fill:#8a7143" x="21">14.11%</tspan><tspan dx="3">  Alternative                             </tspan></text><rect rx="2" ry="2" fill="#8a7143" x="0" y="3" width="16" height="12" stroke-width="0.000001" zIndex="3" stroke="#8a7143"></rect></g><g class="highcharts-legend-item" zIndex="1" transform="translate(3,27)"><text x="21" y="14" style="font-family:Arial;font-size:11px;cursor:pointer;color:#6A6C71;fill:#6A6C71;" text-anchor="start" zIndex="2"><tspan style="fill:#5285b3" x="21">49.70%</tspan><tspan dx="3">  U.S. Equity                             </tspan></text><rect rx="2" ry="2" fill="#5285b3" x="0" y="3" width="16" height="12" stroke-width="0.000001" zIndex="3" stroke="#5285b3"></rect></g></g></g></g><g class="highcharts-tooltip" zIndex="8" style="padding:0;white-space:nowrap;" visibility="hidden"><rect rx="5" ry="5" fill="rgb(254,242,188)" x="0.5" y="0.5" width="10" height="10" stroke-width="0.7" fill-opacity="0.92"></rect></g><g class="highcharts-tracker" zIndex="9"></g></svg><div class="highcharts-tooltip" style="position: absolute; left: 0px; top: 0px;"><span style="position: absolute; white-space: nowrap; font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: rgb(106, 108, 113); left: 5px; top: 5px;" zindex="1"></span></div></div></div><div id="dialogForm:assetAllocation_dataTable" class="ui-datatable ui-widget ui-datatable-scrollable"><div class="ui-widget-header ui-datatable-scrollable-header"><div class="ui-datatable-scrollable-header-box"><table role="grid"><thead id="dialogForm:assetAllocation_dataTable_head"><tr role="row"><th id="dialogForm:assetAllocation_dataTable:j_idt1069" class="ui-state-default alignCenter" role="columnheader" scope="col" style="width:35px"><span class="ui-column-title"></span></th><th id="dialogForm:assetAllocation_dataTable:j_idt1073" class="ui-state-default" role="columnheader" scope="col"><span class="ui-column-title">
+						Your Allocations
+					</span></th><th id="dialogForm:assetAllocation_dataTable:j_idt1076" class="ui-state-default" role="columnheader" aria-label="Allocation Percentage Current" scope="col" style="width:85px"><span class="ui-column-title">Allocation Percentage Current</span></th><th id="dialogForm:assetAllocation_dataTable:j_idt1079" class="ui-state-default" role="columnheader" scope="col" style="width:85px"><span class="ui-column-title">
+						Allocation Percentage<br>Future
+					</span></th><th id="dialogForm:assetAllocation_dataTable:j_idt1083" class="ui-state-default" role="columnheader" scope="col" style="width:80px"><span class="ui-column-title">
+						Number of Units
+					</span></th><th id="dialogForm:assetAllocation_dataTable:j_idt1086" class="ui-state-default" role="columnheader" scope="col" style="width:90px"><span class="ui-column-title">
+						Accumulation Unit Values
+					</span></th><th id="dialogForm:assetAllocation_dataTable:j_idt1089" class="ui-state-default" role="columnheader" scope="col" style="width:100px"><span class="ui-column-title">
+						Accumulation Value
+					</span></th></tr></thead></table></div></div><div class="ui-datatable-scrollable-body" tabindex="-1"><table role="grid"><tbody id="dialogForm:assetAllocation_dataTable_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #8a7143"></span></td><td role="gridcell">JNL/BlackRock<sup>®</sup> Global Natural Resources</td><td role="gridcell">14.11%</td><td role="gridcell">15.00%</td><td role="gridcell">738.3417</td><td role="gridcell">10.550803</td><td role="gridcell">$7,790.10</td></tr><tr data-ri="1" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #5285b3"></span></td><td role="gridcell">JNL/DFA U.S. Core Equity</td><td role="gridcell">9.83%</td><td role="gridcell"></td><td role="gridcell">109.3638</td><td role="gridcell">49.620976</td><td role="gridcell">$5,426.74</td></tr><tr data-ri="2" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #8a7143"></span></td><td role="gridcell">JNL/First Sentier Global Infrastructure</td><td role="gridcell"></td><td role="gridcell">10.00%</td><td role="gridcell">0.0000</td><td role="gridcell">17.663047</td><td role="gridcell">$0.00</td></tr><tr data-ri="3" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #5285b3"></span></td><td role="gridcell">JNL/Invesco Diversified Dividend</td><td role="gridcell">14.71%</td><td role="gridcell">15.00%</td><td role="gridcell">671.7813</td><td role="gridcell">12.090299</td><td role="gridcell">$8,122.04</td></tr><tr data-ri="4" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #a2d5ff"></span></td><td role="gridcell">JNL/Mellon Consumer Staples Sector</td><td role="gridcell">9.55%</td><td role="gridcell">10.00%</td><td role="gridcell">394.1159</td><td role="gridcell">13.384536</td><td role="gridcell">$5,275.06</td></tr><tr data-ri="5" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #a2d5ff"></span></td><td role="gridcell">JNL/Mellon Energy Sector</td><td role="gridcell">15.91%</td><td role="gridcell">15.00%</td><td role="gridcell">223.2304</td><td role="gridcell">39.365075</td><td role="gridcell">$8,787.48</td></tr><tr data-ri="6" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #5285b3"></span></td><td role="gridcell">JNL/Mellon Nasdaq<sup>®</sup> 100 Index</td><td role="gridcell">15.15%</td><td role="gridcell"></td><td role="gridcell">153.7046</td><td role="gridcell">54.450367</td><td role="gridcell">$8,369.27</td></tr><tr data-ri="7" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #a2d5ff"></span></td><td role="gridcell">JNL/Mellon Utilities Sector</td><td role="gridcell">10.74%</td><td role="gridcell">10.00%</td><td role="gridcell">288.4467</td><td role="gridcell">20.553372</td><td role="gridcell">$5,928.55</td></tr><tr data-ri="8" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #8a7143"></span></td><td role="gridcell">JNL/Neuberger Berman Commodity Strategy</td><td role="gridcell"></td><td role="gridcell">15.00%</td><td role="gridcell">0.0000</td><td role="gridcell">8.992041</td><td role="gridcell">$0.00</td></tr><tr data-ri="9" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" class="alignCenter">
+						<span class="table-row-legend" style="background-color: #5285b3"></span></td><td role="gridcell">JNL/Newton Equity Income</td><td role="gridcell">10.01%</td><td role="gridcell">10.00%</td><td role="gridcell">190.7360</td><td role="gridcell">28.974752</td><td role="gridcell">$5,526.53</td></tr></tbody></table></div><div class="ui-widget-header ui-datatable-scrollable-footer"><div class="ui-datatable-scrollable-footer-box"><table role="grid"></table></div></div><input type="hidden" id="dialogForm:assetAllocation_dataTable_scrollState" name="dialogForm:assetAllocation_dataTable_scrollState" autocomplete="off" value="0,0"></div>
+			
+			<div class="panel-content alignCenter">
+				<b>Total Account Value: </b>$55,225.77
+			</div>
+		</div>
+	</div>
+	
+	<script src="./sep14_files/highcharts.js" type="text/javascript" id="_idgpn_19"></script>
+	<script src="./sep14_files/chart-pie.js" type="text/javascript" id="_idgpn_20"></script>
+	<script>
+		function initAllocationChart() {
+			initChartPie('assetAllocation_pieChart', 'Allocation', '{"name":"Sector Equity                           ","y":19991.090,"color":"#a2d5ff"},{"name":"Alternative                             ","y":7790.100,"color":"#8a7143"},{"name":"U.S. Equity                             ","y":27444.580,"color":"#5285b3"}', 230, 200, 125);
+		};
+		$( document ).ready(initAllocationChart());
+	</script></div></div><div id="dialogForm:historyAssetAllocationChartDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="width: 850px; height: auto;" role="dialog" aria-labelledby="dialogForm:historyAssetAllocationChartDialog_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="dialogForm:historyAssetAllocationChartDialog_title" class="ui-dialog-title">Asset Allocation Chart</span><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+	
+	<div class="panel">
+		<div class="panel-content-wrapper">
+			<div id="historicalAssetAllocation_pieChart" class="panel-content"><div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 800px; height: 300px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="300"><defs><clippath id="highcharts-1"><rect rx="0" ry="0" fill="none" x="0" y="0" width="9999" height="300" stroke-width="0.000001"></rect></clippath><clippath id="highcharts-2"><rect fill="none" x="0" y="0" width="755" height="270"></rect></clippath></defs><rect rx="5" ry="5" fill="rgb(244,244,243)" x="0" y="0" width="800" height="300" stroke-width="0.000001" fill-opacity="0"></rect><g class="highcharts-series-group" zIndex="3"></g><g class="highcharts-legend" zIndex="7"><rect rx="5" ry="5" fill="none" x="0" y="0" width="3" height="3" stroke-width="0.000001" stroke="none" visibility="hidden"></rect><g zIndex="1" clip-path="url(#highcharts-1)"><g></g></g></g><g class="highcharts-tooltip" zIndex="8" style="padding:0;white-space:nowrap;" visibility="hidden"><rect rx="5" ry="5" fill="rgb(254,242,188)" x="0.5" y="0.5" width="10" height="10" stroke-width="0.7" fill-opacity="0.92"></rect></g><g class="highcharts-tracker" zIndex="9"></g></svg><div class="highcharts-tooltip" style="position: absolute; left: 0px; top: 0px;"><span style="position: absolute; white-space: nowrap; font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: rgb(106, 108, 113); left: 5px; top: 5px;" zindex="1"></span></div></div></div><div id="dialogForm:historicalAssetAllocation_dataTable" class="ui-datatable ui-widget ui-datatable-scrollable"><div class="ui-widget-header ui-datatable-scrollable-header"><div class="ui-datatable-scrollable-header-box"><table role="grid"><thead id="dialogForm:historicalAssetAllocation_dataTable_head"><tr role="row"><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1106" class="ui-state-default alignCenter" role="columnheader" scope="col" style="width:35px"><span class="ui-column-title"></span></th><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1110" class="ui-state-default" role="columnheader" scope="col"><span class="ui-column-title">
+						Your Allocations
+					</span></th><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1113" class="ui-state-default" role="columnheader" aria-label="Allocation Percentage Current" scope="col" style="width:85px"><span class="ui-column-title">Allocation Percentage Current</span></th><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1116" class="ui-state-default" role="columnheader" scope="col" style="width:85px"><span class="ui-column-title">
+						Allocation Percentage<br>Future
+					</span></th><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1120" class="ui-state-default" role="columnheader" scope="col" style="width:80px"><span class="ui-column-title">
+						Number of Units
+					</span></th><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1123" class="ui-state-default" role="columnheader" scope="col" style="width:90px"><span class="ui-column-title">
+						Accumulation Unit Values
+					</span></th><th id="dialogForm:historicalAssetAllocation_dataTable:j_idt1126" class="ui-state-default" role="columnheader" scope="col" style="width:100px"><span class="ui-column-title">
+						Accumulation Value
+					</span></th></tr></thead></table></div></div><div class="ui-datatable-scrollable-body" tabindex="-1"><table role="grid"><tbody id="dialogForm:historicalAssetAllocation_dataTable_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="7">No records found.</td></tr></tbody></table></div><div class="ui-widget-header ui-datatable-scrollable-footer"><div class="ui-datatable-scrollable-footer-box"><table role="grid"></table></div></div><input type="hidden" id="dialogForm:historicalAssetAllocation_dataTable_scrollState" name="dialogForm:historicalAssetAllocation_dataTable_scrollState" autocomplete="off" value="0,0"></div>
+			
+			<div class="panel-content alignCenter">
+				<b>Total Account Value: </b>
+			</div>
+		</div>
+	</div>
+	
+	<script src="./sep14_files/highcharts.js" type="text/javascript" id="_idgpn_21"></script>
+	<script src="./sep14_files/chart-pie.js" type="text/javascript" id="_idgpn_22"></script>
+	<script>
+		function initAllocationChart() {
+			initChartPie('historicalAssetAllocation_pieChart', 'Allocation', '', 230, 200, 125);
+		};
+		$( document ).ready(initAllocationChart());
+	</script></div></div><div id="dialogForm:addtionalAgentsDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="width: 450px; height: auto;" role="dialog" aria-labelledby="dialogForm:addtionalAgentsDialog_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="dialogForm:addtionalAgentsDialog_title" class="ui-dialog-title"></span><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"></div></div><div id="dialogForm:editContactInfoDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="width: 450px; height: auto;" role="dialog" aria-labelledby="dialogForm:editContactInfoDialog_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="dialogForm:editContactInfoDialog_title" class="ui-dialog-title"></span><a href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"></div></div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:6" value="-1618238641424971298:7362474114924847089" autocomplete="off">
+</form>
+					</div>
+				</div>
+			</div>
+		</div><script>_satellite["_runScript1"](function(event, target, Promise) {
+var hostname = document.location.hostname;
+var pathname = document.location.pathname;
+
+var propertyId = "5d7878ae-a707-ad7b-4fd8-19fae9998fb6"; // default to production property id
+
+// lower region checks against subdomains
+if(/^wwwint\./g.test(hostname) || /^wwwtest\./g.test(hostname)) {
+  propertyId = "5729ead4-07f0-2325-4e45-ed10be245f9d"; // Integration
+
+} else if (/^wwwmod\./g.test(hostname) || /^wwwreg\./g.test(hostname)) {
+  propertyId = "7ac21372-9682-6a40-d9e7-396b75a2934b"; // Model or Regression
+
+ // Evaluate path based rules last, lower region checks failed, assuming prod here on
+} else if (/^\/dash/g.test(pathname)) {
+  propertyId = "774b8e81-7fa9-6022-f560-f6762507994c"; // DASH
+
+} else if(/^\/financialfreedomstudio/g.test(pathname)) {
+  propertyId = "57747641-e567-e9e8-a342-eb548319948f"; // Financial Freedom Studio
+
+} else if(/^\/campains/g.test(pathname)) {
+  propertyId = "25ba4af5-ac32-dbbe-9ec7-00e5fd295298"; // Campaigns
+
+} else if(/^\/statefarm/g.test(pathname)) {
+  propertyId = "1ca2caf4-6104-59d4-a84e-08d48c69203c"; // Statefarm
+} 
+
+window.targetPageParams = function() {
+     return {
+       "at_property" : propertyId
+     };
+}
+});</script>
+
+	<footer id="fatFooter">
+		<div class="siteLinks contentWidth">
+			<div class="section">
+				<div class="header">Resources</div>
+				<ul>
+					<li><a href="https://www.jackson.com/forms/forms.xhtml">Forms</a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<div class="header">Connect</div>
+				<ul>
+					<li><a href="https://www.jackson.com/contact-us.html">Contact Us</a></li>
+					<li><a href="https://www.jackson.com/frequently-asked-questions.html" aria-label="frequently asked questions">FAQs</a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<a href="http://www.allianceforlifetimeincome.org/" target="_blank"><img src="./sep14_files/jackson-alliance-for-lifetime-income.svg" width="265" height="41" alt="Jackson, a Proud Member of the Alliance for Lifetime Income" id="_idgpn_2"></a>
+			</div>
+		</div>
+		<div class="bottomShelf contentWidth">
+			<ul>
+				<li>© 2022. All rights reserved.</li>
+				<li><a href="https://www.jackson.com/legal-and-privacy.html">Legal &amp; Privacy</a></li>
+				<li><a href="https://www.jackson.com/cyber-security.html">Cyber Security</a></li>
+                <li><a href="https://www.jackson.com/accessibility.html">Accessibility</a></li>
+			</ul>
+			<div class="connect clearfix">
+                <div>
+                    <a href="http://www.facebook.com/JacksonNational" target="_blank" aria-label="Like us on Facebook"><span class="fab fa-facebook-f"></span></a>
+                </div>
+                <div>
+                    <a href="http://www.linkedin.com/company/jackson" target="_blank" aria-label="Connect with us on LinkedIn"><span class="fab fa-linkedin-in"></span></a>
+                </div>
+                <div>
+                    <a href="http://www.twitter.com/jacksonnational" target="_blank" aria-label="Follow us on Twitter"><span class="fab fa-twitter"></span></a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/user/JacksonNationalTV" target="_blank" aria-label="Subscribe to us on YouTube"><span class="fab fa-youtube"></span></a>
+                </div>
+			</div>
+		</div>
+	</footer>
+
+		<div id="disclosure">
+			<div class="contentWidth"><p class="bankBox">Not FDIC/NCUA insured • Not bank/CU guaranteed • May lose value • Not a deposit • Not insured by any federal agency</p><p>Jackson works with vendors and other partners to help deliver online and mobile advertisements for Jackson that we think may be of interest to you. For more information about how we utilize cookies and vendors to deliver online advertising, please see our <a href="https://www.jackson.com/legal-and-privacy.html">Web Site Privacy Practices</a>. If you wish to opt-out of this type of advertising visit <a class="ot-sdk-show-settings" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">Do Not Share My Personal Information</a>.</p> 
+	<p>
+		Jackson National Life Insurance Company<br>
+		1 Corporate Way<br>
+		Lansing, MI 48951
+	</p>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./sep14_files/jweb.js" id="_idgpn_23"></script>
+		<script type="text/javascript" src="./sep14_files/print.js" id="_idgpn_24"></script>
+		<script type="text/javascript" src="./sep14_files/prt.js" id="_idgpn_25"></script><!-- element registration -->
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+<script type="text/javascript">
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+try{(new g(100,"r","QSI_S_ZN_bgspWl9PRdHwCGN","https://znbgspwl9prdhwcgn-jackson.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_bgspWl9PRdHwCGN")).start()}catch(i){}})();
+</script><div id="ZN_bgspWl9PRdHwCGN"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END WEBSITE FEEDBACK SNIPPET--><div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-shadow" style="position: absolute; top: 377.062px; left: 1244px; display: none; z-index: 1049;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all" id="_idgpn_63"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Previous"><span class="ui-icon ui-icon-circle-triangle-w">Previous</span></a><a class="ui-datepicker-next ui-corner-all ui-state-disabled" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><select class="ui-datepicker-month" data-handler="selectMonth" data-event="change" aria-label="select month"><option value="3">Apr</option><option value="4">May</option><option value="5">Jun</option><option value="6">Jul</option><option value="7">Aug</option><option value="8" selected="selected">Sep</option></select><select class="ui-datepicker-year" data-handler="selectYear" data-event="change" aria-label="select year"><option value="2022" selected="selected">2022</option></select></div></div><table class="ui-datepicker-calendar" id="_idgpn_64"><thead><tr><th scope="col" class="ui-datepicker-week-end"><span title="Sunday">S</span></th><th scope="col"><span title="Monday">M</span></th><th scope="col"><span title="Tuesday">T</span></th><th scope="col"><span title="Wednesday">W </span></th><th scope="col"><span title="Thursday">T</span></th><th scope="col"><span title="Friday">F </span></th><th scope="col" class="ui-datepicker-week-end"><span title="Saturday">S</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">2</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">3</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">4</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">9</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">10</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">11</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">12</a></td><td class="  ui-datepicker-current-day" data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default ui-state-active" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">14</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">16</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">17</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">18</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="8" data-year="2022"><a class="ui-state-default" href="https://www.jackson.com/policy-detail/variable-annuity.xhtml#">23</a></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled  ui-datepicker-today"><span class="ui-state-default">24</span></td></tr><tr><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">25</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">26</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">27</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">28</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">29</span></td><td class=" ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">30</span></td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div><input id="idg-io-safe-browsing-enabled" type="hidden" oninit="true"><script type="text/javascript" src="./sep14_files/saved_resource" id="_idgpn_26"></script><div id="dialogForm:valueAsOfDateDialog_modal" class="ui-widget-overlay ui-dialog-mask" style="z-index: 1049;"></div></body></html>
